@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Calculator.Controllers.CalculatorController",
+    "Method": "GetAllCalculations",
+    "RelativePath": "api/Calculator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calculator.Controllers.CalculatorController",
+    "Method": "Multiply",
+    "RelativePath": "api/Calculator/multiply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numbers",
+        "Type": "System.Double[]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
